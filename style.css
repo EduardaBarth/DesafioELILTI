@@ -9,7 +9,7 @@ main{
     flex-direction: column;
 }
 .div-principal{
-    width: 100px;
+    width: 100px; 
     height: 100px;
     margin: 0 auto;
     border: solid saddlebrown 1px;
@@ -17,10 +17,13 @@ main{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 10px; 
+    /* espaço entre as div da mesma linha */
 }
 .divs{
-    width: 35px;
+    width: 35px; 
+    /* desse tamanho para que não caiba mais de 2 em cada linha
+    e o wrap fazer ficar 2 em cima e 2 embaixo */
     height: 35px;
     border: solid saddlebrown 1px;
 }
