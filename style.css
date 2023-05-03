@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    gap: 10;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+.div-principal{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: solid saddlebrown 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.divs{
+    width: 35px;
+    height: 35px;
+    border: solid saddlebrown 1px;
+}
+button{
+    width: 50px;
+    font-size: 5px;
+}
